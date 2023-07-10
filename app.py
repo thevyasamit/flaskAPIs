@@ -27,7 +27,7 @@ def about():
     return 'Its about damn time'
 
 '''
-This route is used to check if the requested data is 
+This route is used to check if the requested data is present in the DB or not
 '''
 @app.route("/data_check", methods =['POST'])
 def data():
